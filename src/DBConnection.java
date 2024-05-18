@@ -24,7 +24,7 @@ public class DBConnection {
         // Load the MySQL JDBC driver
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        String url = "jdbc:mysql://localhost:3390/atm";
+        String url = "jdbc:mysql://localhost:3306/atm";
         String username = "root";
         String password = "";
         connection = DriverManager.getConnection(url, username, password);
